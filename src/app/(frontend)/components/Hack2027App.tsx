@@ -1170,16 +1170,88 @@ export function Hack2027App({
             title="POWERING THE NEXT GENERATION OF INNOVATION."
           />
           <div className="sponsor-grid">
+            <a
+              className="sponsor-slot reveal"
+              href="mailto:Simatshack2027@gmail.com?subject=HACK%202027%20Sponsorship%20Enquiry%20-%20Title%20Sponsor"
+              aria-label="Enquire about becoming a Title Sponsor for HACK 2027"
+              key="Title Sponsor"
+            >
+              <span>Title Sponsor</span>
+              <div>
+                <Icon name="plus" />
+                <b>PARTNER LOGO</b>
+                <small>COMING SOON</small>
+                <small className="sponsor-enquiry">Enquire Now</small>
+              </div>
+            </a>
+
+            <a
+              className="sponsor-slot reveal"
+              href="https://hack2027.devfolio.co/overview"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Devfolio - Official Platform Partner for HACK 2027"
+              key="Platform Partner"
+            >
+              <span>PLATFORM PARTNER</span>
+              <div className="sponsor-card-box">
+                <img
+                  src="/devfolio-lockup.svg"
+                  alt="Devfolio"
+                  className="sponsor-partner-logo devfolio-partner-logo"
+                  width={160}
+                  height={33}
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+            </a>
+
+            <a
+              className="sponsor-slot reveal"
+              href="https://adaptionlabs.ai"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Adaption - Official In-Kind Partner for HACK 2027"
+              key="In-Kind Partner"
+            >
+              <span>IN-KIND PARTNER</span>
+              <div className="sponsor-card-box">
+                <img
+                  src="/Adaption_Logo-Lockup_Black_no-BG.png"
+                  alt="Adaption"
+                  className="sponsor-partner-logo adaption-partner-logo"
+                  width={130}
+                  height={44}
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+            </a>
+
+            <a
+              className="sponsor-slot reveal"
+              href="mailto:Simatshack2027@gmail.com?subject=HACK%202027%20Sponsorship%20Enquiry%20-%20Gold%20Sponsor"
+              aria-label="Enquire about becoming a Gold Sponsor for HACK 2027"
+              key="Gold Sponsor"
+            >
+              <span>Gold Sponsor</span>
+              <div>
+                <Icon name="plus" />
+                <b>PARTNER LOGO</b>
+                <small>COMING SOON</small>
+                <small className="sponsor-enquiry">Enquire Now</small>
+              </div>
+            </a>
+
             {[
-              'Title Sponsor',
-              'Gold Sponsor',
               'Technology Partner',
               'Community Partner',
               'Media Partner',
             ].map((title) => (
               <a
                 className="sponsor-slot reveal"
-                href="mailto:Simatshack2027@gmail.com?subject=HACK%202027%20Sponsorship%20Enquiry"
+                href={`mailto:Simatshack2027@gmail.com?subject=HACK%202027%20Sponsorship%20Enquiry%20-%20${encodeURIComponent(title)}`}
                 aria-label={`Enquire about becoming a ${title} for HACK 2027`}
                 key={title}
               >
