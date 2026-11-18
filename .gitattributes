@@ -1,0 +1,9 @@
+# Standard Git Attributes
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.svg text
+*.gif binary
+*.ico binary
+*.webp binary

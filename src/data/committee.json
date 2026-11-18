@@ -1,0 +1,120 @@
+[
+  {
+    "id": "member-1",
+    "name": "ARSHATH ALI A",
+    "designation": "PRESIDENT",
+    "photoUrl": "/uploads/committee/arshath-ali-chief-organizer.webp",
+    "linkedinUrl": "https://www.linkedin.com/in/arshath-ali-53b9a3416/",
+    "instagramUrl": "https://www.instagram.com/arshhhh._.04/",
+    "githubUrl": null,
+    "sortOrder": 1,
+    "isActive": true,
+    "isFaculty": false
+  },
+  {
+    "id": "member-2",
+    "name": "KAREEMULLAH AR",
+    "designation": "VICE PRESIDENT",
+    "photoUrl": "/uploads/committee/WhatsApp_Image_2026-11-16_at_8_03_35_PM_1794840105527.webp",
+    "linkedinUrl": null,
+    "instagramUrl": null,
+    "githubUrl": null,
+    "sortOrder": 2,
+    "isActive": true,
+    "isFaculty": false
+  },
+  {
+    "id": "member-3",
+    "name": "VISWAJITH K",
+    "designation": "Technical Head",
+    "photoUrl": "/uploads/committee/WhatsApp_Image_2026-11-16_at_8_36_40_PM_1794841639578.webp",
+    "linkedinUrl": null,
+    "instagramUrl": null,
+    "sortOrder": 3,
+    "isActive": true,
+    "isFaculty": false
+  },
+  {
+    "id": "member-4",
+    "name": "RESHEKESH B",
+    "designation": "REGISTRATION HEAD",
+    "photoUrl": "/uploads/committee/WhatsApp_Image_2026-11-16_at_11_51_56_AM_1794841777402.webp",
+    "linkedinUrl": "https://www.linkedin.com/in/reshekesh-b-b79a84387/",
+    "instagramUrl": null,
+    "githubUrl": null,
+    "sortOrder": 4,
+    "isActive": true,
+    "isFaculty": false
+  },
+  {
+    "id": "member-5",
+    "name": "SUDHARSHSHINI R",
+    "designation": "EVENT DIRECTOR",
+    "photoUrl": "/uploads/committee/WhatsApp_Image_2026-11-16_at_8_50_10_PM_1794842437602.webp",
+    "linkedinUrl": "https://www.linkedin.com/in/sudharshshini-r-5979b73a0?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "instagramUrl": "https://www.instagram.com/ohhhellnawwww?xtok=dGJ6NWkyOW44dG44",
+    "githubUrl": null,
+    "sortOrder": 4,
+    "isActive": true,
+    "isFaculty": false
+  },
+  {
+    "id": "member-6",
+    "name": "KEERTHANA R",
+    "designation": "Sponsorship & Partnership Head",
+    "photoUrl": "/uploads/committee/keerthana-r.webp",
+    "linkedinUrl": null,
+    "instagramUrl": null,
+    "githubUrl": null,
+    "sortOrder": 6,
+    "isActive": true,
+    "isFaculty": false
+  },
+  {
+    "id": "member-7",
+    "name": "ANURUPA T",
+    "designation": "TREASURER",
+    "photoUrl": "/uploads/committee/WhatsApp_Image_2026-11-16_at_8_38_28_PM_1794841727157.webp",
+    "linkedinUrl": null,
+    "instagramUrl": null,
+    "githubUrl": null,
+    "sortOrder": 5,
+    "isActive": true,
+    "isFaculty": false
+  },
+  {
+    "id": "member-8",
+    "name": "C RAKSHITHA",
+    "designation": "Public Relations Head",
+    "photoUrl": null,
+    "linkedinUrl": null,
+    "instagramUrl": null,
+    "githubUrl": null,
+    "sortOrder": 7,
+    "isActive": true,
+    "isFaculty": false
+  },
+  {
+    "id": "member-9",
+    "name": "DHAVAJ JAIN",
+    "designation": "Operations & Logistics Head",
+    "photoUrl": "/uploads/committee/dhavaj-jain.webp",
+    "linkedinUrl": null,
+    "instagramUrl": null,
+    "githubUrl": null,
+    "sortOrder": 9,
+    "isActive": true,
+    "isFaculty": false
+  },
+  {
+    "id": "faculty-1",
+    "name": "DR. JOTHI ARUNACHALAM",
+    "designation": "Faculty In-Charge",
+    "photoUrl": "/uploads/committee/WhatsApp_Image_2026-11-16_at_12_04_01_PM_1794841881836.webp",
+    "linkedinUrl": null,
+    "instagramUrl": null,
+    "sortOrder": 99,
+    "isActive": true,
+    "isFaculty": true
+  }
+]
