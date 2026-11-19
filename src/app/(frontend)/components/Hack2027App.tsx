@@ -85,6 +85,11 @@ const domains = [
     'shield',
   ],
   [
+    'AI / ML',
+    'Build intelligent systems that learn, predict and automate real-world decisions.',
+    'brain',
+  ],
+  [
     'Blockchain Technology',
     'Explore trusted, transparent and decentralized digital systems.',
     'blocks',
@@ -902,7 +907,7 @@ export function Hack2027App({
           <div className="stats-grid reveal">
             {[
               ['24', 'HOURS', 'clock'],
-              ['05', 'DOMAINS', 'orbit'],
+              ['06', 'DOMAINS', 'orbit'],
               ['TEAM', 'BASED INNOVATION', 'users'],
               ['TBA', 'EXCITING REWARDS', 'trophy'],
             ].map(([value, label, icon]) => (
@@ -922,7 +927,7 @@ export function Hack2027App({
           <SectionHeader
             eyebrow="Innovation tracks"
             title="CHOOSE YOUR BATTLEFIELD."
-            copy="Five directions. One relentless goal: build something that matters."
+            copy="Six directions. One relentless goal: build something that matters."
           />
           <div className="domain-grid">
             {domains.map(([title, copy, icon], index) => (
@@ -959,7 +964,7 @@ export function Hack2027App({
             ))}
           </div>
           <p className="tech-note">
-            Technology skills are separate from the five official hackathon domains.
+            Technology skills are separate from the six official hackathon domains.
           </p>
         </section>
 
@@ -1197,10 +1202,10 @@ export function Hack2027App({
               <div className="sponsor-card-box">
                 <img
                   src="/devfolio-lockup.svg"
-                  alt="Devfolio"
-                  className="sponsor-partner-logo devfolio-partner-logo"
-                  width={160}
-                  height={33}
+                  alt="Devfolio – Official Platform Partner"
+                  className="sponsor-partner-logo"
+                  width={621}
+                  height={129}
                   loading="lazy"
                   decoding="async"
                 />
@@ -1218,11 +1223,11 @@ export function Hack2027App({
               <span>IN-KIND PARTNER</span>
               <div className="sponsor-card-box">
                 <img
-                  src="/Adaption_Logo-Lockup_Black_no-BG.png"
-                  alt="Adaption"
+                  src="/adaption-logo.png"
+                  alt="Adaption – Official In-Kind Partner"
                   className="sponsor-partner-logo adaption-partner-logo"
-                  width={130}
-                  height={44}
+                  width={835}
+                  height={154}
                   loading="lazy"
                   decoding="async"
                 />

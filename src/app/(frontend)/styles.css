@@ -1314,6 +1314,8 @@ body {
 }
 
 .sponsor-partner-logo {
+  width: min(72%, 240px);
+  height: 52px;
   object-fit: contain;
   display: block;
   transition: transform 0.28s ease;
@@ -1324,18 +1326,7 @@ body {
   transform: scale(1.04);
 }
 
-.devfolio-partner-logo {
-  max-width: 160px;
-  width: 100%;
-  height: auto;
-  max-height: 36px;
-}
-
 .adaption-partner-logo {
-  max-width: 130px;
-  width: 100%;
-  height: auto;
-  max-height: 38px;
   filter: brightness(0) invert(1);
 }
 
