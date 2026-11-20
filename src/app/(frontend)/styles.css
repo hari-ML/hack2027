@@ -2804,7 +2804,10 @@ select {
 }
 
 .profile-avatar img[src*="dhavaj-jain"],
-.profile-avatar img[src*="keerthana-r"] {
+.profile-avatar img[src*="keerthana-r"],
+.profile-avatar img[src*="anurupa-t"],
+.profile-avatar img[src*="viswajith-k"],
+.profile-avatar img[src*="reshekesh-b"] {
   object-position: center 25% !important;
 }
 

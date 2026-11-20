@@ -25,7 +25,7 @@ const CommitteeEditModal = dynamic(
 
 // Edit official event details and links here as they are confirmed.
 const eventConfig = {
-  eventDate: '2027-02-20T00:00:00+05:30',
+  eventDate: '2027-02-18T00:00:00+05:30',
   registrationStatus: 'Coming Soon' as 'Coming Soon' | 'Open' | 'Closed',
   registrationUrl: REGISTRATION.url,
   email: 'Simatshack2027@gmail.com',
@@ -122,8 +122,7 @@ const committee = [
   {
     name: 'VISWAJITH K',
     designation: 'Technical Head',
-    photo:
-      '/uploads/committee/WhatsApp_Image_2026-11-16_at_8_36_40_PM_1794841639578.webp',
+    photo: '/uploads/committee/viswajith-k.webp',
     linkedinUrl: null,
     instagramUrl: null,
     githubUrl: null,
@@ -131,8 +130,7 @@ const committee = [
   {
     name: 'RESHEKESH B',
     designation: 'Registration & Participant Coordinator',
-    photo:
-      '/uploads/committee/WhatsApp_Image_2026-11-16_at_11_51_56_AM_1794841777402.webp',
+    photo: '/uploads/committee/reshekesh-b.webp',
     linkedinUrl: 'https://www.linkedin.com/in/reshekesh-b-b79a84387/',
     instagramUrl: null,
     githubUrl: null,
@@ -140,8 +138,7 @@ const committee = [
   {
     name: 'SUDHARSHSHINI R',
     designation: 'Media & Public Relations Head',
-    photo:
-      '/uploads/committee/WhatsApp_Image_2026-11-16_at_8_50_10_PM_1794842437602.webp',
+    photo: '/uploads/committee/sudharshini-r.webp',
     linkedinUrl:
       'https://www.linkedin.com/in/sudharshshini-r-5979b73a0?utm_source=share_via&utm_content=profile&utm_medium=member_android',
     instagramUrl: 'https://www.instagram.com/ohhhellnawwww?xtok=dGJ6NWkyOW44dG44',
@@ -158,8 +155,7 @@ const committee = [
   {
     name: 'ANURUPA T',
     designation: 'Hospitality & Accommodation Coordinator',
-    photo:
-      '/uploads/committee/WhatsApp_Image_2026-11-16_at_8_38_28_PM_1794841727157.webp',
+    photo: '/uploads/committee/anurupa-t.webp',
     linkedinUrl: null,
     instagramUrl: null,
     githubUrl: null,
@@ -181,8 +177,8 @@ const committee = [
     githubUrl: null,
   },
   {
-    name: '',
-    designation: '',
+    name: 'HAREAINDIRAN S',
+    designation: 'Technical Innovation Lead',
     photo: null,
     linkedinUrl: null,
     instagramUrl: null,
@@ -226,73 +222,94 @@ const timeline = [
     title: 'Shortlisted Teams Announcement',
     date: 'January 25, 2027',
     description:
-      'Shortlisted teams are announced. Only selected teams qualify for the offline hackathon.',
+      'Shortlisted teams are announced. Only selected teams qualify for the offline hackathon. Shortlisted teams pay a registration fee of ₹199 per person to confirm their spot in the offline round.',
   },
   {
     title: 'Opening Ceremony',
-    date: 'February 20, 2027',
+    date: 'February 18, 2027',
     description: 'Official inauguration for shortlisted participants.',
   },
   {
     title: 'Offline Hackathon Begins',
-    date: 'February 20, 2027',
+    date: 'February 18, 2027',
     description: 'The 24-hour offline hackathon begins at SIMATS Engineering.',
   },
   {
     title: 'Hackathon Ends',
-    date: 'February 21, 2027',
+    date: 'February 19, 2027',
     description: 'Final project submissions by participating teams.',
   },
   {
     title: 'Final Evaluation & Winner Announcement',
-    date: 'February 21, 2027',
+    date: 'February 19, 2027',
     description: 'Final evaluation and winner announcement.',
   },
 ]
 
-const rules = [
-  'Eligibility Criteria',
-  'Team Formation',
-  'Team Size',
-  'Registration Rules',
-  'Project Development',
-  'Submission Guidelines',
-  'Judging Criteria',
-  'Code of Conduct',
+const rules: { question: string; answer: string }[] = [
+  {
+    question: 'Eligibility Criteria',
+    answer:
+      'The hackathon is open to all undergraduate and postgraduate students from engineering, science and technology disciplines. Participants must carry their college ID card.',
+  },
+  {
+    question: 'Team Formation',
+    answer: 'Teams can include members from different colleges, universities or degree programs.',
+  },
+  {
+    question: 'Team Size',
+    answer: 'Each team must have 3 to 4 members.',
+  },
+  {
+    question: 'Registration Rules',
+    answer:
+      'Teams register online through the Devfolio page. Round 1 is free. Only teams shortlisted for Round 2 (the offline hackathon) pay a registration fee of ₹199 per person after the shortlist is announced on January 25, 2027.',
+  },
+  {
+    question: 'Project Development',
+    answer: 'Official details will be published here once confirmed by the organizing team.',
+  },
+  {
+    question: 'Submission Guidelines',
+    answer:
+      'Round 1: submit your idea PPT online on Devfolio between January 1-20, 2027. Final round: teams submit their completed project when the 24-hour hackathon ends on February 19, 2027.',
+  },
+  {
+    question: 'Judging Criteria',
+    answer:
+      'Projects are judged by industry experts and faculty mentors on Innovation & Uniqueness, Technical Execution & Working Prototype, Impact & Feasibility, and the Final Presentation/Pitch.',
+  },
+  {
+    question: 'Code of Conduct',
+    answer: 'Official details will be published here once confirmed by the organizing team.',
+  },
 ]
 
 const faqs = [
   {
     question: 'What is HACK 2027?',
     answer:
-      'HACK.2027 is a premier 24-hour national-level hackathon bringing together brilliant student developers, designers, and innovators to build disruptive tech solutions and functional prototypes for real-world challenge statements.',
+      'HACK.2027 is a premier 24-hour national-level hackathon bringing together brilliant student developers, designers, and innovators to build disruptive tech solutions and functional prototypes for real-world challenge statements. It is a 24-hour hackathon held at SIMATS Engineering on February 18-19, 2027.',
   },
   {
-    question: 'Who can participate?',
+    question: 'Who can participate and what is the team size?',
     answer:
-      'The hackathon is open to all undergraduate and postgraduate students from engineering, science, and technology disciplines who are passionate about coding, design, and problem-solving.',
+      'The hackathon is open to all undergraduate and postgraduate students from engineering, science and technology disciplines. Teams must have 3 to 4 members, and members can be from different colleges, universities or degree programs.',
   },
   {
-    question: 'Is this a 24-hour hackathon?',
+    question: 'How do I register, and is there a fee?',
     answer:
-      'Yes! HACK.2027 is an intensive, non-stop 24-hour coding and prototyping sprint where teams race against the clock to build their solutions.',
+      'Register your team online through our Devfolio page. Round 1 is free. Only teams shortlisted for Round 2 (the offline hackathon) pay a registration fee of ₹199 per person after the shortlist is announced on January 25, 2027.',
   },
   {
-    question: 'How do I register?',
-    answer: 'You can register your team online through our Devfolio Page.',
-  },
-  {
-    question: 'Can students from different colleges participate?',
+    question: 'How will projects be evaluated?',
     answer:
-      'Yes, cross-institutional teams are welcome. Team members can be from different colleges, universities, or degree programs.',
-  },
-  {
-    question: 'What is the team size?',
-    answer: 'Teams can consist of 2 to 4 members.',
+      'Round 1 is evaluated online through Devfolio: teams submit their idea PPT between January 1-20, 2027, and shortlisted teams are announced on January 25, 2027. The final round is judged on campus by industry experts and faculty mentors on Innovation & Uniqueness, Technical Execution & Working Prototype, Impact & Feasibility, and the Final Presentation/Pitch.',
   },
   {
     question: 'What should participants bring?',
-    answer: 'Participants must bring their own laptops, chargers, extension box,college ID card.',
+    answer:
+      'Participants must bring their own laptops, chargers, an extension box and their college ID card.',
   },
   {
     question: 'Will accommodation be provided?',
@@ -300,14 +317,9 @@ const faqs = [
       'Yes, overnight accommodation and resting spaces will be provided on campus for out-of-station participants during the duration of the hackathon.',
   },
   {
-    question: 'How will projects be evaluated?',
+    question: 'What will participants receive?',
     answer:
-      'Projects will be judged by a panel of industry experts and faculty mentors based on four core pillars: Innovation & Uniqueness, Technical Execution & Working Prototype, Impact & Feasibility, and the Final Presentation/Pitch.',
-  },
-  {
-    question: 'Will certificates be provided?',
-    answer:
-      'Yes! All participants who successfully submit a completed project will receive digital certificates of participation. Finalists and winning teams will receive special certificates of excellence alongside exciting prizes.',
+      'Every participant receives a certificate and goodies. Cash prizes: ₹10,000 for first place, ₹5,000 for second place and ₹3,000 for third place. Finalists and winning teams also receive special certificates of excellence.',
   },
 ]
 
@@ -693,9 +705,9 @@ export function Hack2027App({
 
   const prizeCards = useMemo(
     () => [
-      ['SECOND PRIZE', '02', 'silver'],
-      ['FIRST PRIZE', '01', 'gold'],
-      ['THIRD PRIZE', '03', 'bronze'],
+      ['SECOND PRIZE', '02', 'silver', '₹5,000'],
+      ['FIRST PRIZE', '01', 'gold', '₹10,000'],
+      ['THIRD PRIZE', '03', 'bronze', '₹3,000'],
     ],
     [],
   )
@@ -837,7 +849,7 @@ export function Hack2027App({
             {!eventConfig.eventDate && <div className="date-note">EVENT DATE TO BE ANNOUNCED</div>}
             {eventConfig.eventDate && (
               <div className="date-note">
-                FEBRUARY 20–21, 2027 &nbsp;·&nbsp; <span style={{ color: '#facc15' }}>TENTATIVE DATE</span>
+                FEBRUARY 18–19, 2027 &nbsp;·&nbsp; <span style={{ color: '#facc15' }}>TENTATIVE DATE</span>
               </div>
             )}
             <div className="hero-actions">
@@ -909,7 +921,7 @@ export function Hack2027App({
               ['24', 'HOURS', 'clock'],
               ['06', 'DOMAINS', 'orbit'],
               ['TEAM', 'BASED INNOVATION', 'users'],
-              ['TBA', 'EXCITING REWARDS', 'trophy'],
+              ['₹18K', 'IN CASH PRIZES', 'trophy'],
             ].map(([value, label, icon]) => (
               <div className="stat" key={label}>
                 <Icon name={icon} size={26} />
@@ -1012,7 +1024,8 @@ export function Hack2027App({
             <span>
               <strong>Round 1 is conducted entirely online through Devfolio.</strong> Only
               shortlisted teams announced on <strong>January 25, 2027</strong>, will be eligible to
-              participate in the offline hackathon on <strong>February 20–21, 2027</strong>.
+              participate in the offline hackathon on <strong>February 18–19, 2027</strong>. A
+              registration fee of ₹199 per person applies only to shortlisted teams.
             </span>
           </div>
           <div className="timeline">
@@ -1043,29 +1056,27 @@ export function Hack2027App({
             copy="Recognition designed to celebrate the strongest ideas, execution and impact."
           />
           <div className="prize-grid">
-            {prizeCards.map(([title, rank, tone]) => (
+            {prizeCards.map(([title, rank, tone, cashPrize]) => (
               <article className={`prize-card ${tone} reveal`} key={title}>
                 <span className="prize-rank">{rank}</span>
                 <Icon name="trophy" size={40} />
                 <h3>{title}</h3>
-                <strong>PRIZE VALUE — TBA</strong>
+                <strong>PRIZE VALUE — {cashPrize}</strong>
                 <ul>
                   <li>
-                    <Icon name="check" size={15} /> Cash Prize — TBA
+                    <Icon name="check" size={15} /> Cash Prize — {cashPrize}
                   </li>
                   <li>
-                    <Icon name="check" size={15} /> Goodies — TBA
+                    <Icon name="check" size={15} /> Goodies
                   </li>
                   <li>
                     <Icon name="check" size={15} /> Certificates
-                  </li>
-                  <li>
-                    <Icon name="check" size={15} /> Special Recognition — TBA
                   </li>
                 </ul>
               </article>
             ))}
           </div>
+          <p className="data-note">Every participant receives a certificate and goodies.</p>
         </section>
 
         <section className="section participate">
@@ -1118,7 +1129,8 @@ export function Hack2027App({
             <div className="registration-info">
               {[
                 ['ELIGIBILITY', 'Open to all undergraduate and postgraduate students'],
-                ['TEAM SIZE', '2 to 4 members per team'],
+                ['TEAM SIZE', '3 to 4 members per team'],
+                ['REGISTRATION FEE', 'Free for Round 1. ₹199 per person for shortlisted teams (Round 2)'],
                 ['REGISTRATION', isRegistrationOpen ? 'Register on Devfolio' : 'Opens December 1, 2026'],
               ].map(([title, copy]) => (
                 <div key={title}>
@@ -1138,7 +1150,7 @@ export function Hack2027App({
           <SectionHeader
             eyebrow="Rules & guidelines"
             title="KNOW THE RULES. PLAY FAIR."
-            copy="Official event policies will be added here as they are approved."
+            copy="Key rules for HACK 2027. Additional policies will be added as they are approved."
           />
           <Accordion items={rules} type="rule" />
         </section>
@@ -1762,14 +1774,14 @@ export function Hack2027App({
               <a href="tel:+918870986482">
                 <Icon name="phone" />
                 <span>
-                  <small>CONTACT 01</small>
+                  <small>CONTACT 01 · ARSHATH ALI</small>
                   <b>+91 8870986482</b>
                 </span>
               </a>
               <a href="tel:+919344334585">
                 <Icon name="phone" />
                 <span>
-                  <small>CONTACT 02</small>
+                  <small>CONTACT 02 · VISWAJITH</small>
                   <b>+91 93443 34585</b>
                 </span>
               </a>
